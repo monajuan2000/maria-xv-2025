@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/App.css'
 import backgroundVideo from './assets/videos/PC-main-wallpaper-1.mp4';
 
 function App() {
