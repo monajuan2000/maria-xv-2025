@@ -8,7 +8,9 @@ function App() {
         <source src={backgroundVideo} type="video/mp4" />
         Tu navegador no soporta videos en HTML5.
       </video>
-      {/* Contenido de tu aplicación */}
+      <div className="text-4xl text-blue-700 font-bold underline">
+        ¡Tailwind funciona perfectamente!
+      </div>
     </div>
   );
 }
