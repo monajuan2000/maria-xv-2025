@@ -2,14 +2,18 @@
   "name": "maria-xv-2025",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://monajuan2000.github.io/maria-xv-2025",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
