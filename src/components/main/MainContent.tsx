@@ -2,9 +2,9 @@
 
 function MainContent() {
     return (
-        <section className="text-white text-center py-20">
-            <h1 className="text-4xl font-bold mb-4">Bienvenido a mi sitio web</h1>
-            <p className="text-lg max-w-2xl mx-auto">
+        <section >
+            <h1 >Bienvenido a mi sitio web</h1>
+            <p >
                 Queridos amigos y familia,
 
                 Es un honor para mí y mi familia compartir con ustedes un momento tan especial en mi vida. Han sido años llenos de aprendizajes, risas y experiencias inolvidables, y ahora llega el momento de celebrar un nuevo capítulo: mis 15 años.
