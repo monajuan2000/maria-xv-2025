@@ -3,7 +3,10 @@ import BackgroundVideo from './components/background/BackgroundVideo';
 import backgroundVideo from './assets/videos/PC-main-wallpaper-1.mp4';
 //import Home from './pages/Home';
 import './styles/app.css';
-import TextTesting from './components/testing/TextTesting';
+//import TextTesting from './components/testing/TextTesting';
+import Home from './pages/Home';
+import LocationGoogleMap from './components/locations/LocationGoogleMap';
+import OpenStreetMapLeaflet from './components/locations/OpenStreetMapLeaflet';
 
 function App() {
   return (
@@ -15,10 +18,16 @@ function App() {
       <main className="relative w-full h-full ">
 
         <section className="p-4">
-          <TextTesting />
+          <Home />
         </section>
 
+        <section className="p-4">
+          <LocationGoogleMap />
+        </section>
 
+        <section className="p-4">
+          <OpenStreetMapLeaflet />
+        </section>
 
       </main>
     </div>
