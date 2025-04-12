@@ -7,6 +7,8 @@ import './styles/app.css';
 import Home from './pages/Home';
 import LocationGoogleMap from './components/locations/LocationGoogleMap';
 import OpenStreetMapLeaflet from './components/locations/OpenStreetMapLeaflet';
+import CountdownComponentV2 from './components/countdown/CountdownComponentV2';
+import CountdownComponentV1 from './components/countdown/CountdownComponentV1';
 
 function App() {
   return (
@@ -22,15 +24,23 @@ function App() {
         </section>
 
         <section className="p-4">
-          <LocationGoogleMap />
+          <CountdownComponentV2 />
         </section>
+
+        <section className="p-4">
+          <CountdownComponentV1 />
+        </section>
+
+        <section className="p-4">
+          <LocationGoogleMap />
+        </section >
 
         <section className="p-4">
           <OpenStreetMapLeaflet />
         </section>
 
-      </main>
-    </div>
+      </main >
+    </div >
   );
 }
 
