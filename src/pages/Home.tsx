@@ -8,10 +8,7 @@ function Home() {
     return (
         <div>
             {/* <MainContent /> */}
-            <h1 className="text-4xl font-bold text-center text-pink-600">
-                Welcome to María Alejandra's XV Birthday!
-            </h1>
-            <section id="mainContent" className="min-h-screen pt-20 snap-start">
+            <section id="mainContent" className="min-h-screen pt-20 snap-start mb-16">
                 <MainContent />
             </section>
         </div >
