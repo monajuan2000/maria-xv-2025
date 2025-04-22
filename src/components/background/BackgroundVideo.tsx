@@ -7,12 +7,12 @@ type BackgroundVideoProps = {
 
 function BackgroundVideo({ videoSrc }: BackgroundVideoProps) {
     return (
-        <div className="absolute w-full h-full overflow-hidden">
+        <div className="absolute w-full h-full overflow-hidden ">
             <video
                 autoPlay
                 loop
                 muted
-                className="absolute top-0 left-0 w-full h-full object-cover brightness-105"
+                className="absolute top-0 left-0 w-full h-full object-cover brightness-100"
             >
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support HTML5 videos.
