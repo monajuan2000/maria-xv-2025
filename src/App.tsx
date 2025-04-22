@@ -17,8 +17,8 @@ import OpenStreetMapLeaflet from "./components/locations/OpenStreetMapLeaflet";
 // Agrega más slides según lo necesites
 
 const slideDurations = [
-  10000, // 5 segundos para WelcomeCard
-  10000, // 2 segundos para MainContent
+  4000, // 5 segundos para WelcomeCard
+  7000, // 2 segundos para MainContent
   4000, // etc...
   3000,
   3000,
