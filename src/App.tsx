@@ -1,5 +1,5 @@
 import BackgroundVideo from './components/background/BackgroundVideo';
-import backgroundVideo from './assets/videos/phone-main-wallpaper2.mp4';
+// import backgroundVideo from './assets/videos/phone-main-wallpaper1.mp4';
 import './styles/app.css';
 
 import Home from './pages/Home';
@@ -46,7 +46,7 @@ function App() {
     <div className="relative w-full h-screen overflow-hidden">
 
       {/* Background Video */}
-      <BackgroundVideo videoSrc={backgroundVideo} />
+      {/* <BackgroundVideo videoSrc={backgroundVideo} /> */}
 
       <main className="relative w-full h-screen overflow-y-scroll snap-y snap-mandatory z-10">
 
