@@ -2,25 +2,32 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import SharedBackgroundVideo from "./components/background/SharedBackgroundVideo";
+import WallpaperInitialCover from "./components/background/WallpaperInitialCover";
 import videoBackground from "./assets/videos/shared-video.mp4";
+import wallpaperInitialCover from "./assets/videos/wallpaper-initial-cover.mp4";
+import phoneFinalWallpaper from "./assets/videos/phone-final-wallpaper.mp4";
 import CountdownComponentV1 from "./components/countdown/CountdownComponentV1";
 import CountdownComponentV2 from "./components/countdown/CountdownComponentV2";
 import LocationGoogleMap from "./components/locations/LocationGoogleMap";
 import OpenStreetMapLeaflet from "./components/locations/OpenStreetMapLeaflet";
 import GiftListWallpaper from "./components/background/GiftListWallpaper";
+import FinalWallpaper from "./components/background/FinalWallpaper";
 
 
 // Duraciones personalizadas por slide
-const slideDurations = [3000, 3000, 3000, 3000, 5000];
+const slideDurations = [3000, 3000, 3000, 3000, 3000, 5000];
 // const testVideo = "https://www.w3schools.com/html/mov_bbb.mp4";
 
 // Lista de componentes a mostrar
 const slides = [
+  <WallpaperInitialCover videoSrc={wallpaperInitialCover} />,
+  <CountdownComponentV1 />,
   <CountdownComponentV1 />,
   <CountdownComponentV2 />,
   <LocationGoogleMap />,
   <OpenStreetMapLeaflet />,
-  <GiftListWallpaper />
+  <GiftListWallpaper />,
+  <FinalWallpaper videoSrc={phoneFinalWallpaper} />,
 ];
 
 const App = () => {
