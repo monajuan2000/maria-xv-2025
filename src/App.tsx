@@ -3,37 +3,37 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import WelcomeCard from "./components/main/WelcomeCard";
-import CountdownComponentV1 from "./components/countdown/CountdownComponentV1";
-import CountdownComponentV2 from "./components/countdown/CountdownComponentV2";
+// import CountdownComponentV1 from "./components/countdown/CountdownComponentV1";
+// import CountdownComponentV2 from "./components/countdown/CountdownComponentV2";
 import MainContent from "./components/main/MainContent";
 import BackgroundVideo from "./components/background/BackgroundVideo";
 import backgroundVideo1 from "./assets/videos/phone-main-wallpaper1.mp4"
 import backgroundVideo2 from "./assets/videos/phone-main-wallpaper2.mp4"
-import LocationGoogleMap from "./components/locations/LocationGoogleMap";
-import OpenStreetMapLeaflet from "./components/locations/OpenStreetMapLeaflet";
+// import LocationGoogleMap from "./components/locations/LocationGoogleMap";
+// import OpenStreetMapLeaflet from "./components/locations/OpenStreetMapLeaflet";
 
 // import Slide1 from "./components/Slide1";
 // import Slide2 from "./components/Slide2";
 // Agrega más slides según lo necesites
 
 const slideDurations = [
-  4000, // 5 segundos para WelcomeCard
-  7000, // 2 segundos para MainContent
-  4000, // etc...
-  3000,
-  3000,
+  1000,
+  20000,
   4000,
-  4000,
+  // 3000,
+  // 3000,
+  // 4000,
+  // 4000,
 ];
 
 const slides = [
   <BackgroundVideo videoSrc={backgroundVideo1} />,
   <WelcomeCard />,
   < MainContent />,
-  < CountdownComponentV1 />,
-  < CountdownComponentV2 />,
-  <LocationGoogleMap />,
-  <OpenStreetMapLeaflet />,
+  // < CountdownComponentV1 />,
+  // < CountdownComponentV2 />,
+  // <LocationGoogleMap />,
+  // <OpenStreetMapLeaflet />,
 ]; // Puedes agregar hasta Slide15
 
 function App() {
