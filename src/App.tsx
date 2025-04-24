@@ -15,7 +15,7 @@ import FinalWallpaper from "./components/background/FinalWallpaper";
 
 
 // Duraciones personalizadas por slide
-const slideDurations = [3000, 3000, 3000, 3000, 3000, 5000];
+const slideDurations = [5000, 3000, 3000, 4000, 4000, 5000, 3000, 4000];
 // const testVideo = "https://www.w3schools.com/html/mov_bbb.mp4";
 
 // Lista de componentes a mostrar
