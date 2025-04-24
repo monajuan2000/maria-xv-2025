@@ -4,7 +4,7 @@ function WelcomeCard() {
             {/* Imagen de portada */}
             <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg mb-6">
                 <img
-                    src="src/assets/images/aleja's-photo.png"
+                    // src="src/assets/images/aleja's-photo.png"
                     alt="Foto de María Alejandra"
                     className="object-cover w-full h-full"
                 />

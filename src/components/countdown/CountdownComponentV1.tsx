@@ -1,12 +1,10 @@
 import Countdown from 'react-countdown';
 
 const CountdownComponentV1 = () => {
-  // Set your target date (for example: New Year's Eve 2025)
   const targetDate = new Date('2025-06-21T06:59:59');
 
   return (
-
-    <div className="p-8 bg-blue-600 text-white rounded-lg shadow-xl text-center">
+    <div className="relative z-10 p-8 bg-blue-600 text-white rounded-lg shadow-xl text-center">
       <h2 className="text-2xl font-semibold mb-4">Countdown to June 21th, 2025</h2>
       <Countdown
         date={targetDate}
@@ -26,8 +24,8 @@ const CountdownComponentV1 = () => {
         }}
       />
     </div>
-
   );
 };
+
 
 export default CountdownComponentV1;
