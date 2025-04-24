@@ -9,31 +9,37 @@ import MainContent from "./components/main/MainContent";
 import BackgroundVideo from "./components/background/BackgroundVideo";
 import backgroundVideo1 from "./assets/videos/phone-main-wallpaper1.mp4"
 import backgroundVideo2 from "./assets/videos/phone-main-wallpaper2.mp4"
+import backgroundVideo4 from "./assets/videos/phone-main-wallpaper4.mp4"
 import LocationGoogleMap from "./components/locations/LocationGoogleMap";
 import OpenStreetMapLeaflet from "./components/locations/OpenStreetMapLeaflet";
-
-// import Slide1 from "./components/Slide1";
-// import Slide2 from "./components/Slide2";
-// Agrega más slides según lo necesites
+import GiftListWallpaper from "./components/background/GiftListWallpaper";
 
 const slideDurations = [
-  4000, // 5 segundos para WelcomeCard
-  7000, // 2 segundos para MainContent
-  4000, // etc...
+  2000,
+  2000,
+  2000,
   3000,
   3000,
-  4000,
-  4000,
+  3000,
+  3000,
+  3000,
+  5000,
 ];
 
 const slides = [
   <BackgroundVideo videoSrc={backgroundVideo1} />,
-  <WelcomeCard />,
-  < MainContent />,
+
+  // <WelcomeCard />,
+  // < MainContent />,
+
+
   < CountdownComponentV1 />,
   < CountdownComponentV2 />,
   <LocationGoogleMap />,
   <OpenStreetMapLeaflet />,
+
+  <GiftListWallpaper />,
+  <BackgroundVideo videoSrc={backgroundVideo4} />,
 ]; // Puedes agregar hasta Slide15
 
 function App() {

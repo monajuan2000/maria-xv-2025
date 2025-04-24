@@ -11,9 +11,10 @@ function WelcomeCard() {
             </div>
 
             {/* Título */}
-            <h1 className="text-3xl md:text-4xl font-bold text-primary text-center">
-                Welcome to María Alejandra’s XV Birthday!
+            <h1 className="font-vibes text-6xl text-blue-700 drop-shadow-md tracking-wide">
+                Ariana
             </h1>
+
 
             {/* Texto de bienvenida */}
             <p className="mt-6 text-center text-gray-700 max-w-2xl text-base md:text-lg">
