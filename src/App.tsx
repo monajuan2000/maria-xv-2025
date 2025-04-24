@@ -7,10 +7,11 @@ import CountdownComponentV1 from "./components/countdown/CountdownComponentV1";
 import CountdownComponentV2 from "./components/countdown/CountdownComponentV2";
 import LocationGoogleMap from "./components/locations/LocationGoogleMap";
 import OpenStreetMapLeaflet from "./components/locations/OpenStreetMapLeaflet";
+import GiftListWallpaper from "./components/background/GiftListWallpaper";
 
 
 // Duraciones personalizadas por slide
-const slideDurations = [6000, 5000, 5000, 5000];
+const slideDurations = [3000, 3000, 3000, 3000, 5000];
 // const testVideo = "https://www.w3schools.com/html/mov_bbb.mp4";
 
 // Lista de componentes a mostrar
@@ -18,7 +19,8 @@ const slides = [
   <CountdownComponentV1 />,
   <CountdownComponentV2 />,
   <LocationGoogleMap />,
-  <OpenStreetMapLeaflet />
+  <OpenStreetMapLeaflet />,
+  <GiftListWallpaper />
 ];
 
 const App = () => {
@@ -43,7 +45,7 @@ const App = () => {
       </div>
 
       {/* Capa oscura opcional */}
-      <div className="absolute inset-0 bg-black/40 z-0" />
+      <div className="absolute inset-0  z-0" />
 
       {/* Componente animado actual */}
       <div className="relative z-10 w-full h-full flex items-center justify-center">
