@@ -1,8 +1,9 @@
-type BackgroundVideoProps = {
+// WallpaperInitialCover.tsx
+type FinalWallpaperProps = {
     videoSrc: string;
 };
 
-const BackgroundVideo = ({ videoSrc }: BackgroundVideoProps) => {
+const FinalWallpaper = ({ videoSrc }: FinalWallpaperProps) => {
     return (
         <video
             className="w-full h-full object-cover"
@@ -15,4 +16,4 @@ const BackgroundVideo = ({ videoSrc }: BackgroundVideoProps) => {
     );
 };
 
-export default BackgroundVideo;
+export default FinalWallpaper;

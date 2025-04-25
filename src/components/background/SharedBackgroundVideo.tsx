@@ -1,11 +1,11 @@
-type BackgroundVideoProps = {
-    videoSrc: string;
-};
+// type SharedBackgroundVideoProps = {
+//     videoSrc: string;
+// };
 
-const BackgroundVideo = ({ videoSrc }: BackgroundVideoProps) => {
+const SharedBackgroundVideo = ({ videoSrc }: { videoSrc: string }) => {
     return (
         <video
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover fixed inset-0 -z-10"
             src={videoSrc}
             autoPlay
             loop
@@ -15,4 +15,5 @@ const BackgroundVideo = ({ videoSrc }: BackgroundVideoProps) => {
     );
 };
 
-export default BackgroundVideo;
+
+export default SharedBackgroundVideo;
