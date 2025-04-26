@@ -10,7 +10,6 @@ import LocationGoogleMap from "../locations/LocationGoogleMap";
 import OpenStreetMapLeaflet from "../locations/OpenStreetMapLeaflet";
 import GiftListWallpaper from "../background/GiftListWallpaper";
 import FinalWallpaper from "../background/FinalWallpaper";
-import phoneFinalWallpaper from "../../assets/videos/phone-final-wallpaper.mp4";
 import phoneFinalWallpaperVideo1 from "../../assets/videos/phone-final-wallpaper-video1.mp4";
 import ImageCarousel from "../main/ImageCarousel";
 import PersonalDescription from "../main/PersonalDescription";
