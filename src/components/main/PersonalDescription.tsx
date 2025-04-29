@@ -1,20 +1,37 @@
+// src/components/PersonalDescription.tsx
 import MisQuince from "../header/MisQuince";
+// import TextWithAnimation from "./TextWithAnimation";
 
-function PersonalDescription() {
+const PersonalDescription = () => {
+    const text = `Tal y como salido de un cuento de hadas,
+                el sueño del libro de cuentos finalmente 
+                    se hace realidad.
+                    Yo, Alejandra Amaya junto a mi familia 
+                    requerimos el honor
+                    de su presencia en mi fiesta de 15 años.
+                    Con la bendición y el cuidado de mi familia 
+                    expresare mis
+                    sentimientos ante Dios al convertirme en toda 
+                    una señorita.`;
+
     return (
-        <section >
-            <span className="text-4xl font-bold text-center text-pink-600">
-                CON LA BENDICIÓN DE DIOS Y EL AMOR QUE MI
-                FAMILIA ME HA DADO,ME SIENTO FELIZ DE
-                LLEGAR A ESTEMOMENTO DE MI VIDA.
-                EL DÍA QUE DEJARÉ ATRÁS MI INFANCIA Y
-                COMENZARÉ UN NUEVOVIAJE PORQUE SON
-                PARTE DE MI VIDA. ES MI DESEO QUE COMPARTAN
-                CONMIGO LA ALEGRÍA DE
-            </span>
+        <div >
+            <section className="flex justify-center">
+                <span className="m-4 text-2xl text-center font-bold text-pink-300 text-shadow-soft">
+                    {text}
+                </span>
+            </section>
             <br />
-            <MisQuince />
-        </section>);
-}
+            {/* <section>
+                <TextWithAnimation text={text} />
+            </section> */}
+            <section className="flex justify-center">
+                <MisQuince />
+            </section>
+
+        </div>
+
+    );
+};
 
 export default PersonalDescription;

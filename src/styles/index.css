@@ -1,5 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 @import "tailwindcss";
 
-/* .title-principal {
-    @apply font-vibes text-5xl text-blue-600;
-} */
+
+/* Agregar la animación del brillo */
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* Agregar la clase de resplandor (glow) */
+@layer utilities {
+    .text-glow {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    }
+}
+
+@layer utilities {
+    .text-outline {
+        text-shadow:
+            4px 4px 6px rgba(51, 51, 51, 0.4),
+            /* Más opacidad y mayor desplazamiento */
+            -4px -4px 6px rgba(51, 51, 51, 0.4),
+            4px -4px 6px rgba(51, 51, 51, 0.4),
+            -4px 4px 6px rgba(51, 51, 51, 0.4);
+    }
+}
+
+
+@layer utilities {
+    .text-italic-custom {
+        transform: skew(-15deg);
+        /* Aplica inclinación personalizada */
+    }
+}
+
+@layer utilities {
+    .text-shadow-soft {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+        /* Desplazamiento horizontal y vertical, desenfoque y opacidad */
+    }
+}
+
+
+
+/* Agregar animación al gradiente */
+@layer utilities {
+    .animate-shimmer {
+        animation: shimmer 3s linear infinite;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(0px);
+        /* Se mueve un poco hacia abajo al aparecer */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -23,8 +23,9 @@ export default function ImageCarousel() {
 
     return (
 
-        <div className="relative w-3/2 h-[60vh] mx-auto overflow-hidden rounded-2xl shadow-lg">
+        <div className="p-4 relative w-3/3 h-[60vh] mx-auto overflow-hidden rounded-2xl shadow-lg">
             <Header />
+            <br />
 
             <motion.img
                 key={current}
@@ -34,7 +35,7 @@ export default function ImageCarousel() {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5 }}
-                className="w-full h-full object-cover"
+                className="rounded-lg w-full h-full object-cover"
             />
 
 
