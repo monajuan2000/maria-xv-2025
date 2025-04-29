@@ -1,5 +1,5 @@
 // src/components/background/GiftListWallpaper.tsx
-import giftImage from "../../assets/images/phone-last-wallpaper.jpg";
+import giftImage from "/src/assets/images/phone-last-wallpaper.jpg";
 
 function GiftListWallpaper() {
     return (

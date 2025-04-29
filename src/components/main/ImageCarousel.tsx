@@ -3,10 +3,12 @@ import { motion } from 'framer-motion';
 import Header from '../header/Header';
 
 const images = [
-    'src/assets/images/cinderella-princess1.jpeg',
-    'src/assets/images/alejas-photo1.png',
-    'src/assets/images/cinderella-princess2.jpeg',
-    'src/assets/images/cinderella-princess3.jpeg',
+    '/maria-xv-2025/images/cinderella-princess1.jpeg',
+    '/maria-xv-2025/images/images/alejas-photo1.png',
+    '/maria-xv-2025/images/cinderella-princess2.jpeg',
+    '/maria-xv-2025/images/images/alejas-photo2.png',
+    '/maria-xv-2025/images/cinderella-princess3.jpeg',
+    '/maria-xv-2025/images/images/alejas-photo3.png',
 ];
 
 
