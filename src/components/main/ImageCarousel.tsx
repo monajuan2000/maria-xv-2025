@@ -4,11 +4,11 @@ import Header from '../header/Header';
 
 const images = [
     '/maria-xv-2025/images/cinderella-princess1.jpeg',
-    '/maria-xv-2025/images/images/alejas-photo1.png',
+    '/maria-xv-2025/images/alejas-photo1.png',
     '/maria-xv-2025/images/cinderella-princess2.jpeg',
-    '/maria-xv-2025/images/images/alejas-photo2.png',
+    '/maria-xv-2025/images/alejas-photo2.jpeg',
     '/maria-xv-2025/images/cinderella-princess3.jpeg',
-    '/maria-xv-2025/images/images/alejas-photo3.png',
+    '/maria-xv-2025/images/alejas-photo3.jpeg',
 ];
 
 
