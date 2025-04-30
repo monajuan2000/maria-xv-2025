@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 @import "tailwindcss";
 
+html {
+    filter: brightness(0.8) contrast(1.7);
+}
 
-/* Agregar la animación del brillo */
 @keyframes shimmer {
     0% {
         background-position: -200% 0;
