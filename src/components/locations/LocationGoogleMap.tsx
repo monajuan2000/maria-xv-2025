@@ -1,3 +1,4 @@
+import ConfirmAttendanceButton from "../buttons/ConfirmAttendanceButton";
 import Header from "../header/Header";
 
 export default function LocationGoogleMap() {
@@ -27,7 +28,7 @@ export default function LocationGoogleMap() {
             <br />
             <section className="m-4 flex justify-center">
                 <span className="text-2xl font-bold text-center text-pink-500 text-shadow-soft">
-                    {/* <button>CONFIRMAR ASiSTENCIA</button> */}
+                    <ConfirmAttendanceButton />
                 </span>
             </section>
 
