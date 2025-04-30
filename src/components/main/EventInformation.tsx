@@ -5,21 +5,41 @@ function EventInformation() {
     return (
         <section >
             <Header />
-            <span className="text-4xl font-bold text-center text-black-600">
+            <br /><br />
+            <section className="flex justify-center">
+                <span className="text-center inline-block italic text-italic-custom font-sans text-xl font-semibold text-black-300">
+                    ACOMPAÑANOS A CELEBRAR 8
+                    Sábado
+                </span>
+            </section>
 
+            <br /><br />
+            <section className="flex justify-center">
+                <span className="text-center text-italic-custom italic inline-block font-sans text-xl font-semibold text-black-300">
+                    Clora
+                    X
+                    - X:00
+                    CAbril
+                    P.M.
+                </span>
+            </section>
 
-                ACOMPAÑANOS A CELEBRAR 8
-                Sábado
-                Clora
-                X
-                - X:00
-                CAbril
-                P.M.
-                - Vestimenta Elegante
-                ILUVIA DE
-                SOBRES
-            </span>
-            <br />
+            <br /><br />
+            <section className="flex justify-center">
+                <span className="text-center text-italic-custom italic inline-block font-sans text-xl font-semibold text-black-300">
+                    - Vestimenta Elegante
+                </span>
+            </section>
+
+            <br /><br />
+            <section className="flex justify-center">
+                <span className="text-center text-italic-custom italic inline-block font-sans text-xl font-semibold text-black-300">
+                    ILUVIA DE
+                    SOBRES
+                </span>
+            </section>
+
+            <br /><br />
         </section>);
 }
 
