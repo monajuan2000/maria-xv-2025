@@ -9,13 +9,14 @@ import CountdownComponentV2 from "../countdown/CountdownComponentV2";
 import LocationGoogleMap from "../locations/LocationGoogleMap";
 // import OpenStreetMapLeaflet from "../locations/OpenStreetMapLeaflet";
 // import GodparentInformation from "../main/GodparentInformation";
+// import ParentInformation from "../main/ParentInformation";
 import GiftListWallpaper from "../background/GiftListWallpaper";
 import FinalWallpaper from "../background/FinalWallpaper";
 import phoneFinalWallpaperVideo1 from "../../assets/videos/phone-final-wallpaper-video1.mp4";
 import ImageCarousel from "../main/ImageCarousel";
 import PersonalDescription from "../main/PersonalDescription";
-import ParentInformation from "../main/ParentInformation";
-import EventInformation from "../main/EventInformation";
+import ParentsWallpaper from "../background/ParentsWallpaper";
+import EventInformationWallpaper from "../background/EventInformationWallpaper";
 
 
 
@@ -24,12 +25,14 @@ const slides: ReactNode[] = [
   <WallpaperInitialCover videoSrc={wallpaperInitialCover2} />,
   <ImageCarousel />,
   <PersonalDescription />,
-  <ParentInformation />,
-  <EventInformation />,
+  <ParentsWallpaper />,
+  <EventInformationWallpaper />,
   <CountdownComponentV1 />,
   <CountdownComponentV2 />,
   <LocationGoogleMap />,
   <FinalWallpaper videoSrc={phoneFinalWallpaperVideo1} />,
+  // <EventInformation />,
+  // <ParentInformation />,
   // <GodparentInformation />,
   // <OpenStreetMapLeaflet />,
   <GiftListWallpaper />,
