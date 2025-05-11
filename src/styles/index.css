@@ -44,7 +44,6 @@ html {
 @layer utilities {
     .text-shadow-soft {
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-        /* Desplazamiento horizontal y vertical, desenfoque y opacidad */
     }
 }
 
