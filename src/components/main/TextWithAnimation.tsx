@@ -14,15 +14,16 @@ const TextWithAnimation: React.FC<TextWithAnimationProps> = ({ text }) => {
     }, [text]);
 
     return (
-        <section className="">
-            <span className="font-bold text-pink-300 text-shadow-soft">
+        <section className="text-start">
+            <span >
                 {letters.map((letter, index) => (
                     <span
+
                         key={index}
                         style={{
                             animation: `appear 0.5s ease forwards`,
                             animationDelay: `${index * 0.05}s`,
-                            letterSpacing: '0',
+                            // letterSpacing: '0',
                         }}
                     >
                         {letter === ' ' ? '\u00A0' : letter}

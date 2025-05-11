@@ -25,13 +25,13 @@ const slides: ReactNode[] = [
   <ImageCarousel />,
   <PersonalDescription />,
   <ParentInformation />,
-  // <GodparentInformation />,
   <EventInformation />,
   <CountdownComponentV1 />,
   <CountdownComponentV2 />,
   <LocationGoogleMap />,
-  // <OpenStreetMapLeaflet />,
   <FinalWallpaper videoSrc={phoneFinalWallpaperVideo1} />,
+  // <GodparentInformation />,
+  // <OpenStreetMapLeaflet />,
   <GiftListWallpaper />,
 ];
 
