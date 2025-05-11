@@ -7,13 +7,13 @@ import wallpaperInitialCover2 from "../../assets/videos/wallpaper-initial-cover2
 import CountdownComponentV1 from "../countdown/CountdownComponentV1";
 import CountdownComponentV2 from "../countdown/CountdownComponentV2";
 import LocationGoogleMap from "../locations/LocationGoogleMap";
-import OpenStreetMapLeaflet from "../locations/OpenStreetMapLeaflet";
+// import OpenStreetMapLeaflet from "../locations/OpenStreetMapLeaflet";
+// import GodparentInformation from "../main/GodparentInformation";
 import GiftListWallpaper from "../background/GiftListWallpaper";
 import FinalWallpaper from "../background/FinalWallpaper";
 import phoneFinalWallpaperVideo1 from "../../assets/videos/phone-final-wallpaper-video1.mp4";
 import ImageCarousel from "../main/ImageCarousel";
 import PersonalDescription from "../main/PersonalDescription";
-import GodparentInformation from "../main/GodparentInformation";
 import ParentInformation from "../main/ParentInformation";
 import EventInformation from "../main/EventInformation";
 
@@ -25,27 +25,28 @@ const slides: ReactNode[] = [
   <ImageCarousel />,
   <PersonalDescription />,
   <ParentInformation />,
-  <GodparentInformation />,
+  // <GodparentInformation />,
   <EventInformation />,
   <CountdownComponentV1 />,
   <CountdownComponentV2 />,
   <LocationGoogleMap />,
-  <OpenStreetMapLeaflet />,
+  // <OpenStreetMapLeaflet />,
   <FinalWallpaper videoSrc={phoneFinalWallpaperVideo1} />,
   <GiftListWallpaper />,
 ];
 
 const slideDurations: number[] = [
-  3000,
-  3000,
-  5000,
-  3000,
-  3000,
-  3000,
-  3000,
-  3000,
-  5000,
-  5000
+  // 3000,
+  // 3000,
+  // 5000,
+  // 3000,
+  // 3000,
+  // 3000,
+  // 3000,
+  // 3000,
+  // 5000,
+  // 5000,
+  // 5000
 ];
 
 export { slides, slideDurations };
