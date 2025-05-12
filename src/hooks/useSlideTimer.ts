@@ -15,7 +15,7 @@ const useSlideTimer = (
     useEffect(() => {
         if (!autoAdvanceSlides.includes(index)) return;
 
-        const duration = durations[index] || 3000;
+        const duration = durations[index] || 4000;
         const timer = setTimeout(() => {
             next();
         }, duration);
