@@ -31,25 +31,20 @@ const slides: ReactNode[] = [
   <CountdownComponentV2 />,
   <LocationGoogleMap />,
   <FinalWallpaper videoSrc={phoneFinalWallpaperVideo1} />,
+  <GiftListWallpaper />,
   // <EventInformation />,
   // <ParentInformation />,
   // <GodparentInformation />,
   // <OpenStreetMapLeaflet />,
-  <GiftListWallpaper />,
+
 ];
 
-const slideDurations: number[] = [
-  // 3000,
-  // 3000,
-  // 5000,
-  // 3000,
-  // 3000,
-  // 3000,
-  // 3000,
-  // 3000,
-  // 5000,
-  // 5000,
-  // 5000
-];
+const slideDurations: Record<number, number> = {
+  1: 5000,
+  10: 5000
+};
+
+export default slideDurations;
+
 
 export { slides, slideDurations };
