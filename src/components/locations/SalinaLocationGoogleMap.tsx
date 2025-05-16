@@ -1,14 +1,14 @@
 import ConfirmAttendanceButton from "../buttons/ConfirmAttendanceButton";
 import Header from "../header/Header";
 
-export default function LocationGoogleMap() {
+export default function SalinaLocationGoogleMap() {
     return (
         <section >
             <Header />
             <br />
             <section className="flex justify-center">
                 <span className="text-center inline-block italic text-italic-custom font-sans text-xl font-semibold text-black-300">
-                    Recepcion
+                    Recepcion:
                     Sede social la Salina
                 </span>
             </section>
