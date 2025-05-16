@@ -6,9 +6,16 @@ export default function SalinaLocationGoogleMap() {
         <section >
             <Header />
             <br />
+
             <section className="flex justify-center">
-                <span className="text-center inline-block italic text-italic-custom font-sans text-xl font-semibold text-black-300">
+                <span className="text-center inline-block italic text-italic-custom font-sans text-sm font-semibold text-black-300">
                     Recepcion:
+                </span>
+            </section>
+
+            <section className="flex justify-center">
+
+                <span className="text-center inline-block italic text-italic-custom font-sans text-sm text-black-300">
                     Sede social la Salina
                 </span>
             </section>

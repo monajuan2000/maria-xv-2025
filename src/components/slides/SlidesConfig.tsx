@@ -19,6 +19,7 @@ import ReligiousEventGoogleMap from "../locations/ReligiousEventGoogleMap";
 
 
 const slides: ReactNode[] = [
+
   <WallpaperInitialCover videoSrc={wallpaperInitialCover1} />,
   <WallpaperInitialCover videoSrc={wallpaperInitialCover2} />,
   <ImageCarousel />,
@@ -27,6 +28,7 @@ const slides: ReactNode[] = [
   <EventInformationWallpaper />,
   <CountdownComponentV1 />,
   <CountdownComponentV2 />,
+
   <ReligiousEventGoogleMap />,
   <SalinaLocationGoogleMap />,
   <FinalWallpaper videoSrc={phoneFinalWallpaperVideo1} />,

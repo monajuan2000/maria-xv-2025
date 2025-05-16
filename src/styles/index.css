@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 html {
-    filter: brightness(0.8) contrast(1.7);
+    filter: brightness(0.8) contrast(1.9);
 }
 
 @keyframes shimmer {
@@ -45,6 +45,10 @@ html {
     .text-shadow-soft {
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
     }
+}
+
+.text-outline-gold {
+    text-shadow: 0 0 2px #ffd700, 0 0 2px #ffd700;
 }
 
 

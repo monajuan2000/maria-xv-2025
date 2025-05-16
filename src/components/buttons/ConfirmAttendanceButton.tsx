@@ -8,10 +8,10 @@ export default function ConfirmAttendanceButton() {
             className="relative group mt-8 px-6 py-3 rounded-2xl text-2xl font-bold text-center text-pink-300 text-shadow-soft border border-pink-300 transition-all duration-300 overflow-hidden hover:text-white hover:shadow-xl active:scale-95"
         >
             {/* Soft pink glowing overlay on hover */}
-            <span className="absolute inset-0 bg-pink-300 opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-2xl"></span>
+            <span className="absolute inset-0 text-slate-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-2xl"></span>
 
             {/* Blurred border glow effect */}
-            <span className="absolute inset-0 border-2 border-pink-300 rounded-2xl group-hover:blur-md group-hover:opacity-30"></span>
+            <span className="absolute inset-0 border-2 text-slate-600 rounded-2xl group-hover:blur-md group-hover:opacity-30"></span>
 
             {/* Main link text */}
             <span className="relative z-10">CONFIRM VIA WHATSAPP</span>

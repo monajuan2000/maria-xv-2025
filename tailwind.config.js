@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+    //   colors: {
+    //    silver: '#c0c0c0',
+    //    gold: '#ffd700',
+    //    steelblue: '#4682b4',
+    // },
       fontFamily: {
         decorative: ['"Cinzel Decorative"', 'cursive'],
       },

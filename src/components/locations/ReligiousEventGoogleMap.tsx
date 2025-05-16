@@ -1,5 +1,6 @@
 import ConfirmAttendanceButton from "../buttons/ConfirmAttendanceButton";
 import Header from "../header/Header";
+import CastleFrame from "./CastleMap";
 
 export default function ReligiousEventGoogleMap() {
     return (
@@ -7,13 +8,19 @@ export default function ReligiousEventGoogleMap() {
             <Header />
             <br />
             <section className="flex justify-center">
-                <span className="text-center inline-block italic text-italic-custom font-sans text-xl font-semibold text-black-300">
+                <span className="text-center inline-block italic text-italic-custom font-sans text-sm font-semibold text-black-300">
                     Recepcion:
-                    Parroquia Madre Del Divino Niño
-                    Calle 75C No. 97-10
                 </span>
             </section>
-            <br />
+
+            <section className="flex justify-center">
+
+                <span className="text-center inline-block italic text-italic-custom font-sans text-sm text-black-300">
+                    Parroquia Madre Del Divino Niño,
+                    Calle 75C No. 97-10.
+                </span>
+            </section>
+            {/* <br /> */}
             <section
 
                 style={{
@@ -26,16 +33,8 @@ export default function ReligiousEventGoogleMap() {
                     justifyContent: 'center',
                 }}
             >
-                <div
-                    style={{
-                        width: '90vmin',
-                        height: '90vmin',
-                        borderRadius: '50%',
-                        overflow: 'hidden',
-                        border: '4px solid white',
-                    }}
-                >
 
+                <CastleFrame>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3664544724097!2d-74.11486652396562!3d4.706243895268782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b52a002c3a7%3A0xe6e91ac648e17e67!2sParroquia%20Madre%20Del%20Divino%20Ni%C3%B1o!5e0!3m2!1sen!2sco!4v1747428566713!5m2!1sen!2sco"
                         width="100%"
@@ -44,17 +43,19 @@ export default function ReligiousEventGoogleMap() {
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
                         allowFullScreen
-                    ></iframe>
-                </div>
+                    />
+                </CastleFrame>
             </section>
 
 
-            <br />
+
             <section className="m-4 flex justify-center">
                 <span className="text-2xl font-bold text-center text-pink-500 text-shadow-soft">
                     <ConfirmAttendanceButton />
                 </span>
             </section>
+
+
 
         </section>
     );
