@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 html {
-    filter: brightness(0.8) contrast(1.9);
+    filter: brightness(0.8) contrast(1.8);
 }
 
 @keyframes shimmer {

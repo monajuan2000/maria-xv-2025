@@ -4,7 +4,7 @@ import CastleFrame from "./CastleMap";
 
 export default function ReligiousEventGoogleMap() {
     return (
-        <section >
+        <section className="mt-20">
             <Header />
             <br />
             <section className="flex justify-center">

@@ -6,7 +6,7 @@ interface CastleFrameProps {
 
 const CastleFrame: React.FC<CastleFrameProps> = ({ children }) => {
     return (
-        <section className="flex flex-col items-center justify-center min-h-screen p-6s scale-60">
+        <section className="flex flex-col items-center justify-center max-h-screen scale-60 border border-red-500">
             {/* Castillo */}
             <div className="relative w-[500px] h-[500px] bg-gray-200 border-[6px] border-gray-900 shadow-2xl rounded-b-md overflow-hidden">
                 {/* Base */}
@@ -36,7 +36,7 @@ const CastleFrame: React.FC<CastleFrameProps> = ({ children }) => {
                 </div>
 
                 {/* Contenido interior */}
-                <div className="absolute top-28 bottom-24 left-6 right-6 bg-white border-2 border-gray-300 rounded-md p-2 shadow-inner z-0 overflow-hidden flex items-center justify-center">
+                <div className="absolute top-28 bottom-24 left-6 right-6 bg-gray-400 border-2 border-gray-300 rounded-md p-2 shadow-inner z-0 overflow-hidden flex items-center justify-center">
                     {children}
                 </div>
 

@@ -25,7 +25,7 @@ export default function ImageCarousel() {
 
     return (
 
-        <div className="p-4 relative w-3/3 h-[60vh] mx-auto overflow-hidden rounded-2xl shadow-lg">
+        <div className="mt-10 p-4 relative w-3/3 h-[60vh] mx-auto overflow-hidden rounded-2xl shadow-lg">
             <Header />
             <br />
 

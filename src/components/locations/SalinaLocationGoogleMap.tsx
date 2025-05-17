@@ -3,7 +3,7 @@ import Header from "../header/Header";
 
 export default function SalinaLocationGoogleMap() {
     return (
-        <section >
+        <section className="mt-35">
             <Header />
             <br />
 
