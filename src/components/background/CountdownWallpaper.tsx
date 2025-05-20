@@ -5,7 +5,7 @@ import giftImage from "/src/assets/images/phone-countdown-wallpaper.jpg";
 function CountdownWallpaper() {
     return (
         <section
-            className="w-full min-h-screen flex items-end justify-center bg-cover bg-center"
+            className="w-full h-full flex items-end justify-center bg-cover bg-center"
             style={{ backgroundImage: `url(${giftImage})` }}
         >
             <div className="mb-[-8%] sm:mb-[10%]">
