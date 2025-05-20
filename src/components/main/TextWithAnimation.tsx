@@ -3,9 +3,10 @@ import { useEffect, useState } from 'react';
 
 interface TextWithAnimationProps {
     text: string;
+    animationTime: number;
 }
 
-const TextWithAnimation: React.FC<TextWithAnimationProps> = ({ text }) => {
+const TextWithAnimation: React.FC<TextWithAnimationProps> = ({ text, animationTime }) => {
     const [letters, setLetters] = useState<string[]>([]);
 
     useEffect(() => {
@@ -22,7 +23,7 @@ const TextWithAnimation: React.FC<TextWithAnimationProps> = ({ text }) => {
                         key={index}
                         style={{
                             animation: `appear 0.5s ease forwards`,
-                            animationDelay: `${index * 0.05}s`,
+                            animationDelay: `${index * animationTime}s`,
                             // letterSpacing: '0',
                         }}
                     >

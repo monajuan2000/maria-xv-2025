@@ -4,7 +4,7 @@ import giftImage from "/src/assets/images/phone-parents-wallpaper.png";
 function ParentsWallpaper() {
     return (
         <div
-            className="w-full min-h-screen bg-cover bg-center"
+            className="w-full h-full bg-cover bg-center"
             style={{ backgroundImage: `url(${giftImage})` }}
         >
             {/* <section className="absolute top-47 left-0 right-0">
