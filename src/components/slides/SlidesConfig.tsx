@@ -19,6 +19,7 @@ import ParentsWallpaper from "../background/ParentsWallpaper";
 import EventInformationWallpaper from "../background/EventInformationWallpaper";
 import SalinaLocationGoogleMap from "../locations/SalinaLocationGoogleMap";
 import ReligiousEventGoogleMap from "../locations/ReligiousEventGoogleMap";
+import CountdownWallpaper from "../background/CountdownWallpaper";
 
 
 
@@ -27,7 +28,7 @@ const slides: ReactNode[] = [
   <WallpaperInitialCover videoSrc={wallpaperInitialCover2} />,
   <ImageCarousel />,
   <PersonalDescription />,
-  <CountdownComponentV1 />,
+  <CountdownWallpaper />,
   <ParentsWallpaper />,
   <EventInformationWallpaper />,
   <ReligiousEventGoogleMap />,
