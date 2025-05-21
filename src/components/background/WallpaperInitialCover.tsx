@@ -6,7 +6,7 @@ type WallpaperInitialCoverProps = {
 const WallpaperInitialCover = ({ videoSrc }: WallpaperInitialCoverProps) => {
     return (
         <video
-            className="w-full h-full object-cover"
+            className="opacity-80 w-full h-full object-cover"
             src={videoSrc}
             autoPlay
             loop

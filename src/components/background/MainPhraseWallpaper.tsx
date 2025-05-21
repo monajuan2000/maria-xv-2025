@@ -1,5 +1,5 @@
 import PersonalDescription from "../main/PersonalDescription";
-import giftImage from "/src/assets/images/phone-mainphrase-wallpaper.jpg";
+import giftImage from "/src/assets/images/phone-mainphrase-wallpaper.png";
 
 function MainPhraseWallpaper() {
     return (

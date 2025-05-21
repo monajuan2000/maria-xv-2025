@@ -3,19 +3,19 @@ import giftImage from "/src/assets/images/phone-parents-wallpaper.png";
 
 function ParentsWallpaper() {
     return (
-        <div
-            className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: `url(${giftImage})` }}
+
+
+        <section
+            className="relative w-full h-full flex items-end justify-center bg-cover bg-center"
         >
-            {/* <section className="absolute top-47 left-0 right-0">
-                <ParentInformation />
-            </section> */}
+            <div
+                className="absolute inset-0 bg-cover bg-center opacity-80"
+                style={{ backgroundImage: `url(${giftImage})` }}
+            />
+            <div className="relative z-10 mb-[-8%] sm:mb-[10%]">
 
-            {/* <div className="absolute bottom-35 left-0 right-0">
-                <Header />
-            </div> */}
-
-        </div>
+            </div>
+        </section>
     );
 }
 

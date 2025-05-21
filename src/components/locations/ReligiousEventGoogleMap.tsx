@@ -7,20 +7,24 @@ export default function ReligiousEventGoogleMap() {
         <section className="mt-20">
             <Header />
             <br />
+
             <section className="flex justify-center">
-                <span className="text-center inline-block italic text-italic-custom font-sans text-sm font-semibold text-black-300">
-                    Recepcion:
+                <span className="text-center inline-block italic text-italic-custom font-sans font-semibold text-black-300">
+                    Recepción:
                 </span>
             </section>
 
             <section className="flex justify-center">
+                <p>
+                    <span className="text-center inline-block italic text-italic-custom font-sans text-black-300">
+                        Parroquia Madre Del Divino Niño,
+                    </span>
+                    <span className="block text-center ">Calle 75C No. 97-10.</span>
+                    <span className="text-center block text-sm text-black-300">Hora: 16:00, 4pm</span>
+                </p>
 
-                <span className="text-center inline-block italic text-italic-custom font-sans text-sm text-black-300">
-                    Parroquia Madre Del Divino Niño,
-                    Calle 75C No. 97-10.
-                </span>
             </section>
-            {/* <br /> */}
+            <br />
             <section
 
                 style={{
