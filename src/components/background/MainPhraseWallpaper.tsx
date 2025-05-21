@@ -1,20 +1,19 @@
-// src/components/background/MainPhraseWallpaper.tsx
 import PersonalDescription from "../main/PersonalDescription";
 import giftImage from "/src/assets/images/phone-mainphrase-wallpaper.jpg";
 
 function MainPhraseWallpaper() {
     return (
-        <section
-            className="w-full min-h-screen bg-cover bg-center"
-            style={{ backgroundImage: `url(${giftImage})` }}
-        >
-            <div className="mt-60">
+        <section className="relative w-full min-h-screen overflow-hidden">
+            <div
+                className="absolute inset-0 bg-cover bg-center opacity-80"
+                style={{ backgroundImage: `url(${giftImage})` }}
+            />
+
+            <div className="relative z-10 mt-60">
                 <PersonalDescription />
             </div>
         </section>
     );
 }
-
-
 
 export default MainPhraseWallpaper;
