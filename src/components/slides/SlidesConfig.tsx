@@ -7,19 +7,19 @@ import wallpaperInitialCover2 from "../../assets/videos/wallpaper-initial-cover2
 import GiftListWallpaper from "../background/GiftListWallpaper";
 import FinalWallpaper from "../background/FinalWallpaper";
 import phoneFinalWallpaperVideo1 from "../../assets/videos/phone-final-wallpaper-video1.mp4";
-import ImageCarousel from "../main/ImageCarousel";
 import ParentsWallpaper from "../background/ParentsWallpaper";
 import EventInformationWallpaper from "../background/EventInformationWallpaper";
 import SalinaLocationGoogleMap from "../locations/SalinaLocationGoogleMap";
 import ReligiousEventGoogleMap from "../locations/ReligiousEventGoogleMap";
 import CountdownWallpaper from "../background/CountdownWallpaper";
 import MainPhraseWallpaper from "../background/MainPhraseWallpaper";
+import ImageCarouselWallpaper from "../background/ImageCarouselWallpaper";
 
 
 const slides: ReactNode[] = [
   <WallpaperInitialCover videoSrc={wallpaperInitialCover1} />,
   <WallpaperInitialCover videoSrc={wallpaperInitialCover2} />,
-  <ImageCarousel />,
+  <ImageCarouselWallpaper />,
   <MainPhraseWallpaper />,
   <CountdownWallpaper />,
   <ParentsWallpaper />,

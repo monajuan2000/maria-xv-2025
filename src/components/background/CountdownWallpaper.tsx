@@ -1,6 +1,6 @@
 // src/components/background/GiftListWallpaper.tsx
 import CountdownComponentV1 from "../countdown/CountdownComponentV1";
-import giftImage from "/src/assets/images/phone-countdown-wallpaper.jpg";
+import giftImage from "/src/assets/images/phone-countdown-wallpaper.png";
 
 function CountdownWallpaper() {
     return (

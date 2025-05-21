@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Header from '../header/Header';
+import TextWithAnimation from './TextWithAnimation';
 
 const images = [
     '/maria-xv-2025/images/cinderella-princess1.jpeg',
@@ -15,6 +16,7 @@ const images = [
 export default function ImageCarousel() {
     const [current, setCurrent] = useState(0);
 
+
     const nextSlide = () => {
         setCurrent((prev) => (prev + 1) % images.length);
     };
@@ -25,10 +27,11 @@ export default function ImageCarousel() {
 
     return (
 
-        <div className="mt-10 p-4 relative w-3/3 h-[60vh] mx-auto overflow-hidden rounded-2xl shadow-lg">
-            <Header />
+        <section className="p-4 relative w-3/3 h-[60vh] mx-auto overflow-hidden rounded-2xl shadow-lg">
+            <section className="">
+                <Header />
+            </section>
             <br />
-
             <motion.img
                 key={current}
                 src={images[current]}
@@ -66,7 +69,7 @@ export default function ImageCarousel() {
                     />
                 ))}
             </div>
-        </div>
+        </section>
     );
 }
 

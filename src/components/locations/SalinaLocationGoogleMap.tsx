@@ -3,21 +3,25 @@ import Header from "../header/Header";
 
 export default function SalinaLocationGoogleMap() {
     return (
-        <section className="mt-35">
+        <section className="mt-30">
             <Header />
             <br />
 
             <section className="flex justify-center">
-                <span className="text-center inline-block italic text-italic-custom font-sans text-sm font-semibold text-black-300">
-                    Recepcion:
+                <span className="text-center inline-block italic text-italic-custom font-sans font-semibold text-black-300">
+                    Recepción:
                 </span>
             </section>
 
             <section className="flex justify-center">
+                <p>
+                    <span className="inline-block italic text-italic-custom font-sans text-black-300 font-semibold">
+                        Sede social la Salina:
+                    </span>
 
-                <span className="text-center inline-block italic text-italic-custom font-sans text-sm text-black-300">
-                    Sede social la Salina
-                </span>
+                    <span className="text-center block text-sm text-black-300">Hora: 18:00, 6pm</span>
+                </p>
+
             </section>
             <br />
             <section
