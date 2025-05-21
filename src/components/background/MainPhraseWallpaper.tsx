@@ -3,7 +3,7 @@ import giftImage from "/src/assets/images/phone-mainphrase-wallpaper.jpg";
 
 function MainPhraseWallpaper() {
     return (
-        <section className="relative w-full overflow-hidden">
+        <section className="relative w-full h-full overflow-hidden">
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-80"
                 style={{ backgroundImage: `url(${giftImage})` }}
