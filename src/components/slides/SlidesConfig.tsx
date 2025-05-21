@@ -40,6 +40,7 @@ const slides: ReactNode[] = [
 const slideDurations: Record<number, number> = {
   1: 0,
   2: 7000,
+  3: 0,
   4: 0,
   5: 0,
   6: 0,
@@ -48,7 +49,6 @@ const slideDurations: Record<number, number> = {
   9: 0,
   10: 7000,
   11: 0,
-
 };
 
 export default slideDurations;

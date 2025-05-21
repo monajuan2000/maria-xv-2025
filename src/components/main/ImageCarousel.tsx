@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Header from '../header/Header';
-import TextWithAnimation from './TextWithAnimation';
 
 const images = [
     '/maria-xv-2025/images/cinderella-princess1.jpeg',
